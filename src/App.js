@@ -55,7 +55,7 @@ function App() {
             </div>
             <img src={img5} className='imgParte1'/>
           </div>
-          <h3>A consequência da fast fashion na mentalidade do consumidor.</h3>
+          <h3>A consequência da fast fashion na mentalidade do consumidor</h3>
           <div className='parte5'>
             <div className='textos'>
               <p>Por fim, é preciso falar sobre como o fast fashion afeta a mentalidade do consumidor. As roupas, que antigamente eram tratadas como bens duráveis, hoje são vistas como algo descartável, utilizadas por um período curto de tempo.</p>
