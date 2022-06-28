@@ -101,11 +101,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
 }
 
 .documentario iframe{
-  width: 1100px;
+  width: 1200px;
   height: 550px;
+  
 }
 
 .fontes{
@@ -113,20 +116,11 @@
   font-size: 14px;
 }
 
-footer{
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  box-shadow: 0px 0px 15px rgb(35, 35, 35);
-  font-family: 'Rubik', sans-serif;
-
-}
 
 .boxInfo{
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
   box-shadow: 0px 0px 25px rgb(35, 35, 35);
   margin-bottom: 100px;
@@ -150,4 +144,162 @@ footer{
 
 .boxInfo h2{
   text-align: center;
+}
+
+.hr{
+  color: black;
+  width: 100%;
+}
+
+@media (min-width: 50px) and (max-width: 850px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .backgroundIntroduct{
+    background-image: url('./images/Effect.png');
+    height: 300px;
+  }
+  .imgPrincipal{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 0px 25px rgb(35, 35, 35);
+  }
+  
+  .containerTitulo{
+    text-align: start;
+    padding-left: 5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .titulo{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+  }
+  
+  .containerSubTitulo{
+    width: 95%;
+    text-align: end;
+    padding-top: 10px;
+  }
+  
+  .subTitulo{
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+    letter-spacing: 1px;
+  
+  }
+  
+  .conteudo{
+    padding: 40px 0 50px 0;
+  }
+  
+  .conteudo h3{
+    text-align: start;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    padding: 0 30px 0 30px;
+  }
+  
+  .textos{
+    width: 100%;
+    text-align: start;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 30px 0 30px;
+  }
+  
+  .parte1, .parte4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parte2, .parte3, .parte5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgParte1{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(35, 35, 35);
+    margin: 0;
+    margin-top: 20px;
+    
+  }
+  
+  .documentario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .documentario iframe{
+    width: 80%;
+    height: 200px;
+    
+  }
+  
+  .fontes{
+    margin-top: 150px;
+    font-size: 14px;
+  }
+  
+  
+  .boxInfo{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(35, 35, 35);
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding: 25px;
+  }
+  
+  .boxInfo span{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  .boxInfo p{
+    margin: 0;
+    padding:5px;
+  }
+  
+  .boxInfo h2{
+    text-align: center;
+  }
+  
+  .hr{
+    color: black;
+    width: 100%;
+  }
+  
 }
