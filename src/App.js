@@ -9,7 +9,8 @@ import img7 from './images/infinidade.png'
 
 function App() {
   return (
-    <div className="App">
+    <div>
+        <div className="App">
         <div className='backgroundIntroduct'>
           <div className='containerTitulo'>
             <h1 className='titulo'>Outra imagem do cotidiano</h1>
@@ -67,9 +68,15 @@ function App() {
           <div className='documentario'>
           <iframe  src="https://www.youtube.com/embed/enektksvTqI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div className='fontes'>
-            <h4>Materiais utilizados</h4>
-            <p>Fonte: <a href="https://veja.abril.com.br/economia/fast-fashion-a-moda-rapida-e-descartavel-agora-em-versao-on-line/">https://veja.abril.com.br/economia/fast-fashion-a-moda-rapida-e-descartavel-agora-em-versao-on-line/</a></p>
+        </div>
+        <div className='boxInfo'>
+          <h2>Dados do grupo</h2>
+          <p><span>Titulo:</span> Outra Imagem do Cotidiano.</p>
+          <p><span>Subtítulo:</span> Fast fashion: a moda rápida e descartável</p>
+          <p><span>Descrição:</span> O conceito de fast fashion (ou “moda rápida”, em português) surgiria apenas na década de 1990, com o barateamento tanto da mão de obra quanto da matéria-prima na indústria têxtil. Lojas como Zara, H&M e Topshop investiram em peças que lembravam a alta costura, porém tinham custo baixo para o consumidor e um tempo de vida reduzido.</p>
+          <p><span>Materiais Utilizados:</span>Para desenvolvermos o site utilizamos ReactJS.</p>
+          <p><span>Referências:</span></p>
+          <p>Fonte: <a href="https://veja.abril.com.br/economia/fast-fashion-a-moda-rapida-e-descartavel-agora-em-versao-on-line/">https://veja.abril.com.br/economia/fast-fashion-a-moda-rapida-e-descartavel-agora-em-versao-on-line/</a></p>
             <p>Fonte: <a href="https://sammy-carvalho.medium.com/a-ind%C3%BAstria-do-fast-fashion-e-por-que-isso-tamb%C3%A9m-%C3%A9-problema-seu-6e686fcdaa80#:~:text=Lojas%20como%20C%26A%2C%20Renner%2C%20Marisa,que%20se%20consome%20fast%2Dfashion">"https://sammy-carvalho.medium.com/</a></p>
             <p>Fonte: <a href="https://reporterbrasil.org.br/2016/08/a-moda-de-explorar-o-trabalhador/">https://reporterbrasil.org.br/2016/08/a-moda-de-explorar-o-trabalhador/</a></p>
             <p>Fonte: <a href="https://istoe.com.br/332682_OS+GIGANTES+DA+MODA+RAPIDA/">https://istoe.com.br/332682_OS+GIGANTES+DA+MODA+RAPIDA/</a></p>
@@ -77,7 +84,7 @@ function App() {
             <p>Fonte: <a href="https://www.folhaum.com/post/fast-fashion-e-a-escravid%C3%A3o-contempor%C3%A2nea/">https://www.folhaum.com/post/fast-fashion-e-a-escravid%C3%A3o-contempor%C3%A2nea</a></p>
             <p>Fonte: <a href="https://www.youtube.com/watch?v=U-FZnFcKEHA&ab_channel=DWBrasil/">https://www.youtube.com/watch?v=U-FZnFcKEHA&ab_channel=DWBrasil</a></p>
             <p>Fonte: <a href="https://www.youtube.com/watch?v=enektksvTqI&ab_channel=BBCNewsBrasil/">https://www.youtube.com/watch?v=enektksvTqI&ab_channel=BBCNewsBrasil</a></p>            
-          </div>
+        </div>
         </div>
         <footer>
           <div>

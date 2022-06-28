@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&family=Staatliches&display=swap');
 
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .backgroundIntroduct{
   background-image: url('./images/Effect.png');
   height: 100vh;
@@ -114,5 +121,33 @@ footer{
   box-shadow: 0px 0px 15px rgb(35, 35, 35);
   font-family: 'Rubik', sans-serif;
 
+}
 
+.boxInfo{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgb(35, 35, 35);
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.boxInfo span{
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+
+.boxInfo p{
+  margin: 0;
+  padding:5px;
+}
+
+.boxInfo h2{
+  text-align: center;
 }
