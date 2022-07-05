@@ -28,7 +28,7 @@ function App() {
           <div className='parte1'>
             <div className='textos'>
               <p>Ao longo da história, a moda foi considerada uma manifestação cultural e um retrato das sociedades ao expressar seus hábitos, costumes e valores. Entretanto, essa visão veio sendo modificada com a inserção da ideia do "Fast Fashion", ou moda rápida em português, onde a fabricação de roupas em larga escala seguindo tendências, focada na padronização das mesmas e no consumo em massa, com consequente diminuição de qualidade e durabilidade são aspectos característicos desse ciclo produtivo.</p>
-              <p>Em consequência disto a indústria da moda vem cresce em uma velocidade exponencial gerando US$ 525 bilhões de faturamento anual em todos seus segmentos.</p>
+              <p>Em consequência disto a indústria da moda vem crescendo em uma velocidade exponencial gerando US$ 525 bilhões de faturamento anual em todos seus segmentos.</p>
               <p>Para entender esse crescimento, é importante saber o que é fast fashion. Basicamente, trata-se de um modelo em que os produtos são fabricados, consumidos e descartados constantemente e com muita rapidez.</p>
               <p>Apesar dos benefícios que pode trazer ao mercado, como maior rentabilidade, geração de empregos e produtos a custo acessível, é necessário olhar para o sistema com responsabilidade, ciente dos impactos que pode causar no meio ambiente e nos hábitos de consumo.</p>
             </div>
